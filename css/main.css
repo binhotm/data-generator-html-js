@@ -1,0 +1,90 @@
+.panel-table .panel-body{
+    padding:0;
+}
+
+.panel-table .panel-body .table-bordered{
+    border-style: none;
+    margin:0;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type {
+    text-align:center;
+    width: 100px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:last-of-type{
+    border-right: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type{
+    border-left: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr:first-of-type > th{
+    border-top: 0px;
+}
+
+.panel-table .panel-footer .pagination{
+    margin:0; 
+}
+
+.panel-table .panel-footer .col{
+    line-height: 34px;
+    height: 34px;
+}
+
+.panel-table .panel-heading .col h3{
+    line-height: 30px;
+    height: 30px;
+}
+
+
+.container-top .panel-table{
+    margin-top: 15px;
+} 
+
+.header {
+    padding: 10px;
+}
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-info {
+    border-left-color: #1b809e;
+}
+
+.panel-data .input-group{
+    margin-top: 10px;
+}
+
+.panel-data > .panel-heading{
+    background-image: linear-gradient(to bottom,#0e9bf7 0,#1b809e 100%);
+
+    color: #fff;
+    background-color: #ffffff;
+    border-color: #156890;
+}
+
+.panel-data .input-group-addon{
+    background: none;
+    border: 0px;
+}
+
+.panel-title{
+
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container-top {
+        max-width: 730px;
+    }
+}
